@@ -6,10 +6,9 @@ import javax.persistence.Transient;
 
 import org.springframework.transaction.annotation.Transactional;
 
+import com.dc.framework.mybatis.model.PriorityEntity;
+import com.dc.manager.util.SettingUtils;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.yundao.tour.util.SettingUtils;
-
-import framework.model.PriorityEntity;
 
 /**
  * 

@@ -3,10 +3,8 @@ package com.dc.manager.model.rbac;
 import javax.persistence.Column;
 import javax.persistence.Table;
 
-import org.apache.log4j.Priority;
+import com.dc.framework.mybatis.model.PriorityEntity;
 
-import framework.model.BaseEntity;
-import framework.model.PriorityEntity;
 
 /**
  * 

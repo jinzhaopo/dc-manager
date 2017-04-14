@@ -4,9 +4,9 @@ import javax.persistence.Column;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import com.dc.framework.mybatis.model.BaseEntity;
 import com.dc.manager.model.enumModel.LogOperatiorType;
 
-import framework.model.BaseEntity;
 
 /**
  * 

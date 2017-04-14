@@ -8,10 +8,10 @@ import javax.persistence.Column;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import com.dc.common.util.PropertiesHelper;
+import com.dc.framework.mybatis.model.PriorityEntity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import framework.model.PriorityEntity;
-import framework.util.PropertiesHelper;
 
 /**
  * 

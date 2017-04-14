@@ -4,9 +4,9 @@ import javax.persistence.Column;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import com.dc.framework.mybatis.model.PriorityEntity;
 import com.dc.manager.model.enumModel.MenuType;
 
-import framework.model.PriorityEntity;
 
 /**
  * 

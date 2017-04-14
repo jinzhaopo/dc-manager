@@ -3,7 +3,7 @@ package com.dc.manager.model.link;
 import javax.persistence.Column;
 import javax.persistence.Table;
 
-import framework.model.BaseEntity;
+import com.dc.framework.mybatis.model.BaseEntity;
 
 /**
  * 

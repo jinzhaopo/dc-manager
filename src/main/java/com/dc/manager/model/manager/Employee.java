@@ -7,12 +7,11 @@ import javax.persistence.Column;
 import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlTransient;
 
+import com.dc.framework.mybatis.model.PriorityEntity;
 import com.dc.manager.model.enumModel.SexType;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreType;
 
-import framework.model.PriorityEntity;
 
 /**
  * 

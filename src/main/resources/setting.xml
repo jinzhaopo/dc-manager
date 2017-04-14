@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/2002/xmlspec/dtd/2.10/xmlspec.dtd">
+<yundao>
+	<description>配置文件</description>
+	<!--基本信息 -->
+	<setting name="name" value="缙云旅游云平台" />
+	<setting name="cookiePath" value="/" />
+	<setting name="cookieDomain" value="" />
+
+	<!--三小时 -->
+	<setting name="checkInTime" value="0.5" />
+
+	<!--各种价格 -->
+	<setting name="priceOfAnnualTicket" value="1000" />
+
+	<!-- 年票时间间隔 (单位天) -->
+	<setting name="yearTicketTimeLength" value="365" />
+	<setting name="licenceNumberVerify" value="331122,332526,331102,332501" />
+
+	<!--定时更新会员的时间 -->
+	<setting name="updateTouristTrigger" value="0 30 23 * * ?" />
+
+	<!--短信配置 -->
+	<setting name="smsUserName" value="huiben" />
+	<setting name="smsPassword" value="asdf12345" />
+	<setting name="smsApikey" value="4bb00304f6bbd82cd5c5752fd2292fd4" />
+
+	<!-- 线下资质审核通过短信提示信息 -->
+	<setting name="applySmsMessageInfo" value="您在缙云微信商城上提交的年票资质审核已经通过!" />
+	<setting name="noApplySmsMessageInfo" value="您在缙云微信商城上提交的年票资质审核不通过!" />
+</yundao>

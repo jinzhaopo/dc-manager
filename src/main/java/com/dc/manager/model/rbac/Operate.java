@@ -1,10 +1,10 @@
 package com.dc.manager.model.rbac;
 
 import javax.persistence.Column;
-import javax.persistence.Entity;
 import javax.persistence.Table;
 
-import framework.model.PriorityEntity;
+import com.dc.framework.mybatis.model.PriorityEntity;
+
 
 /**
  * 
