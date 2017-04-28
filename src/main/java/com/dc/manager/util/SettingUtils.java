@@ -49,7 +49,7 @@ public class SettingUtils {
 			try {
 				File file = new ClassPathResource("/setting.xml").getFile();
 				Document document = (new SAXReader()).read(file);
-				List<org.dom4j.Element> list = document.selectNodes("/yundao/setting");
+				List<org.dom4j.Element> list = document.selectNodes("/ceo/setting");
 				for (Iterator<org.dom4j.Element> iterator = list.iterator(); iterator.hasNext();) {
 					org.dom4j.Element element1 = iterator.next();
 					String s = element1.attributeValue("name");
@@ -82,7 +82,7 @@ public class SettingUtils {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		List<org.dom4j.Element> list = document.selectNodes("/yundao/setting");
+		List<org.dom4j.Element> list = document.selectNodes("/ceo/setting");
 		for (Iterator<org.dom4j.Element> iterator = list.iterator(); iterator.hasNext();) {
 			org.dom4j.Element element = iterator.next();
 			try {
